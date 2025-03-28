@@ -1,0 +1,14 @@
+body{
+    position: relative;
+}
+div{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border: 2px solid;
+    
+}
+.container{
+    background: linear-gradient(0deg,     rgba(0,0,0,0.5) ,   rgba(225,225,225,0));
+    z-index: 2;
+}

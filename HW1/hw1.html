@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .card{
+            padding: 1px;
+            background-color: rgb(28, 25, 33);
+            border-radius: 10px;
+            width: 600px;
+            height: 550px;
+        
+        }
+        .image-container{
+            background-image: url(image11.jpg);
+            width: 540px;
+            height: 300px;
+            background-size: cover;
+            margin: 30px auto;
+            border-radius: 10px;
+        }
+        p{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .caption{
+            
+            font-size: 35px;
+        }
+        .caption-container{
+            margin: 30px;
+        }
+        hr{
+            margin-left: 30px;
+            margin-right: 180px;
+            opacity: 20%;
+        }
+        .fees{
+            align-items: center;
+            display: flex;
+            margin-left: 30px;
+        }
+        .fees p{
+
+            margin: 10px;
+        }
+        .dis-price{
+            color: rgb(34, 142, 230);
+        }
+        .old-price{
+            color:gray;
+        }
+        .discount{
+            background-color: rgb(0, 193, 167);
+            border-radius: 3px;
+            padding: 3px;
+            font-size: small;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="image-container">
+        </div>
+        <div class="caption-container">
+            <p class="caption"><b>Data Structures & Algorithms</b></p>
+            <p class="caption"><b>[Codehelp RED]</b></p>
+        </div>
+        <hr>
+        <div class="fees">
+            <p class="dis-price">&#8377;4500</p>
+            <p class="old-price"><del>&#8377;9000</del></p>
+            <p class="discount">50% off</p>
+        </div>
+    </div>
+</body>
+</html>

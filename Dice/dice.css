@@ -1,0 +1,62 @@
+.scene {
+    height: 100vh;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+  }
+.dice{
+    height: 100px;
+    width: 100px;
+    border: 0px solid ;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transform: rotateX(-195deg) rotateY(2165deg) rotateZ(30deg);
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 0px solid black;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: whitesmoke;
+}
+#box1{
+    background-color: red ;
+    opacity: 1;
+    transform: translateZ(50px);
+}
+#box2{
+    background-color:blue ;
+    opacity: 1;
+    transform: rotateX(90deg) translateZ(50px);
+}
+#box3{
+    background-color: green ;
+    opacity: 1;
+    transform: rotateX(90deg) translateZ(-50px);
+}
+#box4{
+    background-color:fuchsia ;
+    opacity: 1;
+    transform: rotateY(-90deg) translateZ(50px);
+}
+#box5{
+    background-color:brown ;
+    opacity: 1;
+    transform: rotateY(-90deg) translateZ(-50px);
+    
+}
+#box6{
+    background-color: orange;
+    opacity: 1;
+    transform:rotateY(180deg) translateZ(50px);
+}
+
